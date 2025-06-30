@@ -35,3 +35,14 @@ This project is a web-based application designed to detect skin diseases from up
 
 ## 📁 Project Structure
 
+skin-disease-detection/
+│
+├── model/ # Trained ML model (h5 or pkl)
+├── php/ # Backend PHP files (upload.php, predict.php)
+├── python/ # Python scripts for prediction
+├── assets/ # CSS, JS, images
+├── index.html # Homepage
+├── upload.html # Image upload form
+├── suggestions.php # Disease suggestions with translation
+├── database.sql # Optional: User data storage
+
